@@ -1,0 +1,100 @@
+html{
+  
+  background-color: #3d3d3d;
+}
+
+.outerContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #3d3d3d;
+    margin: 0;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: #FFFFFF;
+    border-top-right-radius: 8px;
+    height: 100%;
+    width: 100%;
+  }
+
+  .container Input{
+    padding: 15px;
+  }
+  
+  .nameContainer{
+    color: white;
+    background-color: #3d3d3d;
+    height: 100%;
+    width: 250px;
+    text-align: center;
+    position: relative;
+    
+    
+    /* display: flex; */
+    /* top:0px; */
+    /* position: absolute; */
+    /* margin: 10px; */
+    /* width: 500%; */
+    /* padding: 10px; */
+    
+  }
+
+  .nameTag{
+    border-bottom: 2px solid white;
+    padding: 15px;
+    
+  }
+
+  
+  
+  
+  
+
+  @media (min-width: 320px) and (max-width: 480px) {
+    .outerContainer {
+      height: 100%;
+      
+      
+      
+    }
+  
+    .container {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  
+  @media (min-width: 980px) and (max-width: 1200px) {
+    .container {
+      width: 50%;
+    }
+  }
+
+#is_writing {
+  display: none;
+}
+
+#is_writing img {
+  width: 10%;
+  margin-left: 1%;
+}
+
+.currentChannel {
+  color: #2979FF;
+	text-align:right;
+	position:relative;
+	transform:rotate(270deg);
+  -ms-transform:rotate(270deg); /* Internet Explorer */
+  -moz-transform:rotate(270deg); /* Firefox */
+  -webkit-transform:rotate(270deg); /* Safari et Chrome */
+  -o-transform:rotate(270deg);
+}
+
+#currentChannelP {
+  font-size: 6mm;
+}
