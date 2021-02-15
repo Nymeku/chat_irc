@@ -1,7 +1,7 @@
 # IRC CHAT APP
 
 ## DESCRIPTION
-In this project we created a chat IRC with nodejs in back, react js for the front and socket.io for the communication.
+This IRC Chat project has been created with nodejs in back, react js for the front and socket.io for the communication.
 
 ### Commands:
 * /nick [username]: to change your current username.
